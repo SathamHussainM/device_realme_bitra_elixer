@@ -29,5 +29,8 @@ type factorytestreport_vendor_data_file, data_file_type, file_type;
 type oplus_fingerprint_file, data_file_type, file_type;
 type vendor_proc_fingerprint, fs_type, proc_type;
 
+# Rtc
+type sysfs_msm_subsys, sysfs_type, fs_type;
+
 # Version
 type vendor_proc_oplusversion, fs_type, proc_type;
