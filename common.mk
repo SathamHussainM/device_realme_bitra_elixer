@@ -133,7 +133,8 @@ PRODUCT_PACKAGES += \
     libstdc++.vendor
 
 PRODUCT_PACKAGES += \
-    Camera2
+    Camera2 \
+    GcamGo
 
 PRODUCT_COPY_FILES += \
     frameworks/native/data/etc/android.hardware.camera.flash-autofocus.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.camera.flash-autofocus.xml \
